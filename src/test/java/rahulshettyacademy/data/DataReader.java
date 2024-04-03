@@ -14,6 +14,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 public class DataReader {
 
 	public List<HashMap<String, String>> getJsonDataToMap() throws IOException {
+		int x = 1;
 
 		String path = System.getProperty("user.dir")
 				+ "\\src\\test\\java\\rahulshettyacademy\\data\\PurchaseOrder.json";
